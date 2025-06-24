@@ -14,11 +14,11 @@ This project allows users to:
 
 ## 👾 GitHub Repository
 
-➡️ [Click here to view the repository]()
+➡️ [Click here to view the repository](https://github.com/Ru1naR/MMS_project_2025-s270470)
 
 ## 🎞️ Project Presentation
 
-📽️ [Click here to open the presentation](https://docs.google.com/presentation/d/1aHp3P_xLbuBk6uuVaXJCQPr5zyG_c1YEWaGS-nDtpbU/edit?usp=sharing)
+📽️ [Click here to open the presentation]([https://docs.google.com/presentation/d/1aHp3P_xLbuBk6uuVaXJCQPr5zyG_c1YEWaGS-nDtpbU/edit?usp=sharing](https://docs.google.com/presentation/d/1aHp3P_xLbuBk6uuVaXJCQPr5zyG_c1YEWaGS-nDtpbU/edit?usp=sharing))
 
 
 ## 🚀 Running the Project
