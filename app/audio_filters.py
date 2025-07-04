@@ -39,12 +39,12 @@ def car(input_path, output_path, order, gain):
         side = (left - right) / 2 * gain
         left = mid + side
         right = mid - side
-        sos = butter(order, 3000, btype='low', fs=sample_rate, output='sos')
+        sos = butter(order, 10000, btype='low', fs=sample_rate, output='sos')
         left_filtered = sosfilt(sos, left)
         right_filtered = sosfilt(sos, right)
         filtered = np.vstack([left_filtered, right_filtered]).T
     else:
-        sos = butter(order, 3000, btype='low', fs=sample_rate, output='sos')
+        sos = butter(order, 10000, btype='low', fs=sample_rate, output='sos')
         filtered = sosfilt(sos, audio_data)
 
     filtered = np.clip(filtered, -32768, 32767).astype(np.int16)
